@@ -1,0 +1,29 @@
+#submit{
+    display: inline-flex;
+    margin: 5px auto;
+}
+
+input[name]:invalid{
+    border: 2px solid red;
+}
+
+input[name]:invalid:required{
+    border: orange 2px solid;
+}
+
+input[name]:valid{
+background-color: green;
+}
+
+input[type="email"]:focus{
+    text-transform: uppercase;
+}
+
+
+p:empty{
+    display: none;
+}
+
+h2::before, h2::after{
+    content: "****"
+}

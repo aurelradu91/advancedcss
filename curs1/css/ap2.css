@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+html, body{
+    font-family: arial, helvetica, sans-serif;
+}
+
+div{
+    width: 100%;
+    max-width: 400px;
+    margin:20px auto;
+    border: double 3px red;
+    padding: 10px 25px;
+}
+
+
+p{
+    color: brown;
+    font-size: 30px;
+}
+
+section{
+    border: solid blue 5px;
+}
+
+div>p{
+    font-style:italic;
+}
+
+div~p{
+    font-size: 3px; 
+}

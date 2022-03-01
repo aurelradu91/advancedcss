@@ -1,0 +1,35 @@
+#display{
+    list-style-type: none;
+}
+
+
+#display li{
+    display: inline-block;
+}   
+
+a[title]{
+    color: green;
+    font-size: 15px;
+}
+
+a[href="https://link-academy.com"] {
+    color: orange;
+    font-size: 15px;
+}
+
+a[href *= "#fr/ro/"]{
+    color: aqua;
+}
+
+a[href ^="https"]{
+    text-transform: uppercase;
+}
+
+a[href $=".com"]{
+    text-decoration: none;
+    font-style: italic;
+}
+
+a[data-info ~="extern"]{
+    color: red;
+}

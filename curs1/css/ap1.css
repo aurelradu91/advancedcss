@@ -1,0 +1,17 @@
+#parred {
+  color: red;
+  margin: 25px;  
+  padding: 15px;
+  border-width: 3px;
+  border-style: double;
+  border-color: purple;
+}
+
+.nienie {
+    color: blue;
+    margin: 35px;
+    padding: 40px;
+    border-width: 1.5px;
+    border-style: groove;
+    border-color: yellow;
+}
