@@ -1,0 +1,33 @@
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1600px;
+    gap: 2rem;
+    height: auto;
+}
+
+.container .card {
+    display:flex;
+    flex-direction: column;
+    width: 27%;
+    overflow:hidden;
+    box-shadow: 0 0.1rem 1rem black;
+    border-radius: 1em;
+    background: white;
+    background: linear-gradient(to right);}
+
+
+    div.container, div.card{
+        transform: perspective(900px) rotatex(60deg) scale(0.7);
+        box-shadow:0px 20px 100px gray;
+        transition:2s ease all;
+    }
+
+    div.container:hover,div.card:hover {
+        transform: rotate(0deg) scale(1)
+        translateY(10px);
+    }
+
+
+

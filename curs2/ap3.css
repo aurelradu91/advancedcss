@@ -1,0 +1,53 @@
+#wrapper {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 50px;
+  animation: pulse 1s infinite;
+}
+
+.text{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+#heart {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  animation: pulsecolor 1s infinite;
+}
+
+#heart::before, #heart:after{
+  position: absolute;
+  content: "";
+  height: 80px;
+  left: 50px;
+  top: 0;
+  width: 50px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+  animation: pulsecolor 1s infinite;
+}
+
+@keyframes pulse{
+  10% {width: 110px;}
+  }
+
+#heart:after{
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+  animation: pulsecolor 1s infinite;
+}
+
+@keyframes pulse {
+  10% {transform: scale(1.1)}
+}
+
+@keyframes pulsecolor {
+  10% {background}
+}

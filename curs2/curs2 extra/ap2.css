@@ -1,0 +1,22 @@
+#heart {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+#heart:before, #heart:after{
+position: absolute;
+content: "";
+left: 50px;
+top: 0;
+width: 50px;
+background: red;
+border-radius: 50px 50px 0 0;
+transform: rotate(-45deg);
+transform-origin: 0 100%;
+
+/* animation: pulsecolor 1s infinite */
+
+
+}
